@@ -1,5 +1,6 @@
 ﻿namespace NCloud.Web.Core
 {
+    using Furion;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.DependencyInjection;
@@ -8,7 +9,7 @@
     /// <summary>
     /// Defines the <see cref="NCloudCoreWebStartUp" />.
     /// </summary>
-    public class NCloudCoreWebStartUp : Fur.AppStartup
+    public class NCloudCoreWebStartUp : AppStartup
     {
         /// <summary>
         /// The ConfigureServices.

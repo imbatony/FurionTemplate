@@ -14,11 +14,11 @@
             Defines the repository.
             </summary>
         </member>
-        <member name="M:NCloud.Application.PersonAppService.#ctor(Fur.DatabaseAccessor.IRepository{NCloud.Core.Entity.Person})">
+        <member name="M:NCloud.Application.PersonAppService.#ctor(Furion.DatabaseAccessor.IRepository{NCloud.Core.Entity.Person})">
             <summary>
             Initializes a new instance of the <see cref="T:NCloud.Application.PersonAppService"/> class.
             </summary>
-            <param name="repository">The repository<see cref="T:Fur.DatabaseAccessor.IRepository`1"/>.</param>
+            <param name="repository">The repository<see cref="T:Furion.DatabaseAccessor.IRepository`1"/>.</param>
         </member>
         <member name="M:NCloud.Application.PersonAppService.Insert(NCloud.Core.Entity.Person)">
             <summary>

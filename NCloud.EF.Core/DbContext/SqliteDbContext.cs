@@ -1,6 +1,6 @@
 ﻿namespace NCloud.EF.Core.DbContext
 {
-    using Fur.DatabaseAccessor;
+    using Furion.DatabaseAccessor;
     using Microsoft.EntityFrameworkCore;
 
     /// <summary>

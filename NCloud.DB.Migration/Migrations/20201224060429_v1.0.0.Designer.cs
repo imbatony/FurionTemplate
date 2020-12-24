@@ -4,13 +4,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using NCloud.EF.Core;
 using NCloud.EF.Core.DbContext;
 
-namespace NCloud.DB.Migration.Migrations
+namespace NCloud.DB.Migrations.Migrations
 {
     [DbContext(typeof(SqliteDbContext))]
-    [Migration("20201223145329_v1.0.0")]
+    [Migration("20201224060429_v1.0.0")]
     partial class v100
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

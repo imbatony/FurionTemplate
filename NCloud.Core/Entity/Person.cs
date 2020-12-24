@@ -1,9 +1,11 @@
 ﻿namespace NCloud.Core.Entity
 {
+    using Furion.DatabaseAccessor;
+
     /// <summary>
     /// Defines the <see cref="Person" />.
     /// </summary>
-    public class Person : Fur.DatabaseAccessor.Entity
+    public class Person : Entity
     {
         /// <summary>
         /// Gets or sets the Name.

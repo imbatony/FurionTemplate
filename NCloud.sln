@@ -9,16 +9,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCloud.Core", "NCloud.Core\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCloud.Web.Core", "NCloud.Web.Core\NCloud.Web.Core.csproj", "{C559FF63-328F-46A0-800F-91214C7E646A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCloud.Web.Entry", "NCloud.Web.Entry\NCloud.Web.Entry.csproj", "{D0F8D708-9338-4EF1-B495-EDE6C3DE7463}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCloud.Web.Entry", "NCloud.Web.Entry\NCloud.Web.Entry.csproj", "{D0F8D708-9338-4EF1-B495-EDE6C3DE7463}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{40EA428B-7ECB-4EA4-A40B-892157FEEDCE}"
 	ProjectSection(SolutionItems) = preProject
 		NCloud.header = NCloud.header
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCloud.DB.Migration", "NCloud.DB.Migration\NCloud.DB.Migration.csproj", "{7B06C319-7769-4796-92C7-EC2BEBF7355F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCloud.DB.Migrations", "NCloud.DB.Migration\NCloud.DB.Migrations.csproj", "{7B06C319-7769-4796-92C7-EC2BEBF7355F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCloud.EF.Core", "NCloud.EF.Core\NCloud.EF.Core.csproj", "{5921CF42-2838-4847-ABFC-C3335876A522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCloud.EF.Core", "NCloud.EF.Core\NCloud.EF.Core.csproj", "{5921CF42-2838-4847-ABFC-C3335876A522}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NCloud.Application\NCloud.Application.csproj" />
-    <ProjectReference Include="..\NCloud.DB.Migration\NCloud.DB.Migration.csproj" />
+    <ProjectReference Include="..\NCloud.DB.Migration\NCloud.DB.Migrations.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,7 @@
 ﻿namespace NCloud.Web.Entry.Controllers
 {
     using System.Diagnostics;
+    using Furion;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.Extensions.Logging;
     using NCloud.Web.Entry.Models;
@@ -52,11 +53,13 @@
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-
+        /// <summary>
+        /// The Content.
+        /// </summary>
+        /// <returns>The <see cref="IActionResult"/>.</returns>
         public IActionResult Content()
         {
-            return Content(Fur.App
-                .Configuration["AppInfo:Name"]);
+            return Content(App.Configuration["AppInfo:Name"]);
         }
     }
 }

@@ -1,17 +1,10 @@
-﻿namespace NCloud.DB.Migration.Migrations
-{
-    using System;
-    using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
-    /// <summary>
-    /// Defines the <see cref="v100" />.
-    /// </summary>
-    public partial class v100 : Microsoft.EntityFrameworkCore.Migrations.Migration
+namespace NCloud.DB.Migrations.Migrations
+{
+    public partial class v100 : Migration
     {
-        /// <summary>
-        /// The Up.
-        /// </summary>
-        /// <param name="migrationBuilder">The migrationBuilder<see cref="MigrationBuilder"/>.</param>
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -32,10 +25,6 @@
                 });
         }
 
-        /// <summary>
-        /// The Down.
-        /// </summary>
-        /// <param name="migrationBuilder">The migrationBuilder<see cref="MigrationBuilder"/>.</param>
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(

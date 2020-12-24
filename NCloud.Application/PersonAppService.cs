@@ -1,8 +1,8 @@
 ﻿namespace NCloud.Application
 {
     using System.Collections.Generic;
-    using Fur.DatabaseAccessor;
-    using Fur.DynamicApiController;
+    using Furion.DatabaseAccessor;
+    using Furion.DynamicApiController;
     using NCloud.Core.Entity;
 
     /// <summary>
