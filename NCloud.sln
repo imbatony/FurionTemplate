@@ -3,7 +3,54 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCloud.Application", "NCloud.Application\NCloud.Application.csproj", "{447BB142-0A2A-44CD-BD5E-E381E8C25D61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCloud.Core", "NCloud.Core\NCloud.Core.csproj", "{40967279-9F6A-465F-BC51-0A6621C65DB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCloud.Web.Core", "NCloud.Web.Core\NCloud.Web.Core.csproj", "{C559FF63-328F-46A0-800F-91214C7E646A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCloud.Web.Entry", "NCloud.Web.Entry\NCloud.Web.Entry.csproj", "{D0F8D708-9338-4EF1-B495-EDE6C3DE7463}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{40EA428B-7ECB-4EA4-A40B-892157FEEDCE}"
+	ProjectSection(SolutionItems) = preProject
+		NCloud.header = NCloud.header
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCloud.DB.Migration", "NCloud.DB.Migration\NCloud.DB.Migration.csproj", "{7B06C319-7769-4796-92C7-EC2BEBF7355F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCloud.EF.Core", "NCloud.EF.Core\NCloud.EF.Core.csproj", "{5921CF42-2838-4847-ABFC-C3335876A522}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{447BB142-0A2A-44CD-BD5E-E381E8C25D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447BB142-0A2A-44CD-BD5E-E381E8C25D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447BB142-0A2A-44CD-BD5E-E381E8C25D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447BB142-0A2A-44CD-BD5E-E381E8C25D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40967279-9F6A-465F-BC51-0A6621C65DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40967279-9F6A-465F-BC51-0A6621C65DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40967279-9F6A-465F-BC51-0A6621C65DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40967279-9F6A-465F-BC51-0A6621C65DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C559FF63-328F-46A0-800F-91214C7E646A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C559FF63-328F-46A0-800F-91214C7E646A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C559FF63-328F-46A0-800F-91214C7E646A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C559FF63-328F-46A0-800F-91214C7E646A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F8D708-9338-4EF1-B495-EDE6C3DE7463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F8D708-9338-4EF1-B495-EDE6C3DE7463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F8D708-9338-4EF1-B495-EDE6C3DE7463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F8D708-9338-4EF1-B495-EDE6C3DE7463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B06C319-7769-4796-92C7-EC2BEBF7355F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B06C319-7769-4796-92C7-EC2BEBF7355F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B06C319-7769-4796-92C7-EC2BEBF7355F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B06C319-7769-4796-92C7-EC2BEBF7355F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5921CF42-2838-4847-ABFC-C3335876A522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5921CF42-2838-4847-ABFC-C3335876A522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5921CF42-2838-4847-ABFC-C3335876A522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5921CF42-2838-4847-ABFC-C3335876A522}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

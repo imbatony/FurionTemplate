@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NCloud.Application</name>
+    </assembly>
+    <members>
+        <member name="T:NCloud.Application.PersonAppService">
+            <summary>
+            Defines the <see cref="T:NCloud.Application.PersonAppService" />.
+            </summary>
+        </member>
+        <member name="F:NCloud.Application.PersonAppService.repository">
+            <summary>
+            Defines the repository.
+            </summary>
+        </member>
+        <member name="M:NCloud.Application.PersonAppService.#ctor(Fur.DatabaseAccessor.IRepository{NCloud.Core.Entity.Person})">
+            <summary>
+            Initializes a new instance of the <see cref="T:NCloud.Application.PersonAppService"/> class.
+            </summary>
+            <param name="repository">The repository<see cref="T:Fur.DatabaseAccessor.IRepository`1"/>.</param>
+        </member>
+        <member name="M:NCloud.Application.PersonAppService.Insert(NCloud.Core.Entity.Person)">
+            <summary>
+            The Insert.
+            </summary>
+            <param name="person">The person<see cref="T:NCloud.Core.Entity.Person"/>.</param>
+        </member>
+        <member name="M:NCloud.Application.PersonAppService.GetAll">
+            <summary>
+            The GetAll.
+            </summary>
+            <returns>The <see cref="T:System.Collections.Generic.List`1"/>.</returns>
+        </member>
+    </members>
+</doc>
